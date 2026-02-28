@@ -45,7 +45,7 @@ for _, row in df.iterrows():
     dbTest.append(row.tolist())
 
 #Printing the header os the solution
-print(f"{"Day":<10} {"Outlook":<10} {"Temperature":<15} {"Humidity":<10} {"Windy":<10} {"PlayTennis":<10}{"Confidence":<10}")
+print(f"{"Day":<10} {"Outlook":<10} {"Temperature":<15} {"Humidity":<10} {"Windy":<10} {"PlayTennis":<15}{"Confidence":<10}")
 
 #Use your test samples to make probabilistic predictions. For instance: clf.predict_proba([[3, 1, 2, 1]])[0]
 for row in dbTest:
@@ -63,4 +63,4 @@ for row in dbTest:
         else:  
             prediction = 'No'
         
-        print(f"{row[0]:<10} {row[1]:<10} {row[2]:<15} {row[3]:<10} {row[4]:<10} {prediction:<10}{confidence:.2%}")
+        print(f"{row[0]:<10} {row[1]:<10} {row[2]:<15} {row[3]:<10} {row[4]:<10} {prediction:<15}{confidence:.2%}")
