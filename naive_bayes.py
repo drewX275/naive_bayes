@@ -3,11 +3,10 @@
 # FILENAME: naive_bayes.py
 # SPECIFICATION: Naive Bayes Classifier to predict if it is going to rain or not tomorrow based on the given training and test data.
 # FOR: CS 4210- Assignment #2
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 4.5 hours
 #-----------------------------------------------------------*/
 
 #IMPORTANT NOTE: YOU ARE ALLOWED TO USE ANY PYTHON LIBRARY TO COMPLETE THIS PROGRAM
-
 #Importing some Python libraries
 from sklearn.naive_bayes import GaussianNB
 import pandas as pd
